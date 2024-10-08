@@ -60,18 +60,20 @@ function createUndefinedVariable() {
 // typeof
 // 10. Escribe un código para ver el tipo de una variable llamada `userName` e imprime el tipo de dato en consola.
 function checkUserNameType() {
-    // Tu código aquí...
+    let userName = "Fernanda";
+    console.log(typeof userName);
 }
 
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
 function checkDogIdIsString() {
-    // Tu código aquí...
+    let dogId = String(12345);
+    console.log(typeof dogId);
 }
 
 // console.log()
 // 12. Imprime un mensaje en la consola utilizando `console.log()`.
 function logMessage() {
-    // Tu código aquí...
+    console.log("soy muy ciega que no vi este apartado");
 }
 
 // 13. Utiliza `console.log()` para imprimir el valor de la variable `edad` que tiene el valor 30.
@@ -82,8 +84,8 @@ function logAge() {
 
 // 14. Muestra el mensaje 'La versión de JavaScript es' seguido de la variable `version` con el valor 2024 usando `console.log()`.
 function logVersion() {
-    const version = 2024;
-    console.log('La versión de JavaScript es ' + version);
+    let version = 2024;
+    console.log('La versión de JavaScript es ' + version);  
 }
 
 // Exportar todas las funciones para poder usarlas en las pruebas
